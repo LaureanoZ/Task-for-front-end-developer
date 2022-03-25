@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <title>Task 2 | Card Data</title>
+</head>
+
+<body>
+    <section class="block-card">
+        <h1>Payment Information</h1>
+        <div class="card">
+            <div class="card-image">
+                <div class="div-image-1">
+                    <p id="p-number"></p>
+                </div>
+                <div class="div-image-2">
+                    <p id="p-name" class="p1"></p>
+                    <p id="p-date" class="p2"></p>
+                </div>
+            </div>
+            <div class="card-information">
+                <form>
+                    <div>
+                        <label>Name</label>
+                        <input id="field-name" type="text" maxlength="23">
+                    </div>
+                    <div>
+                        <div class="field-button">
+                            <label>Card Number</label>
+                            <button id="generate">generate random</button>
+                        </div>
+                        <input id="field-number" type="text" maxlength="19">
+                    </div>
+                    <div>
+                        <label>Expiration (mm/yy)</label>
+                        <input id="field-date" type="text" maxlength="5">
+                    </div>
+
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>

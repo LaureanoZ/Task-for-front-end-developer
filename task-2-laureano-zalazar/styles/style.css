@@ -1,0 +1,235 @@
+@font-face {
+  font-family: "Cousine";
+  src: url(../fonts/cousine/Cousine-Regular.ttf);
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.block-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+  margin: auto;
+  align-items: center;
+}
+.block-card h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #272727;
+  margin: 50px 0;
+}
+.block-card .card {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 420px;
+}
+.block-card .card .card-image {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-image: url(../img/card-image.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  justify-content: space-around;
+  height: 100%;
+}
+.block-card .card .card-image .div-image-1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 55%;
+  width: 80%;
+  padding-left: 60px;
+}
+.block-card .card .card-image .div-image-1 p {
+  color: white;
+  font-family: "Cousine";
+  font-weight: bold;
+  font-size: 2rem;
+}
+.block-card .card .card-image .div-image-2 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 17px;
+}
+.block-card .card .card-image .div-image-2 p {
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Cousine";
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.block-card .card .card-image .div-image-2 .p1 {
+  width: 70%;
+  margin-left: 58px;
+  margin-top: 34px;
+}
+.block-card .card .card-image .div-image-2 .p2 {
+  width: 30%;
+  margin-top: 40px;
+}
+.block-card .card .card-information {
+  display: flex;
+  width: 40%;
+}
+.block-card .card .card-information form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+.block-card .card .card-information form div {
+  display: flex;
+  flex-direction: column;
+}
+.block-card .card .card-information form div label {
+  color: #949494;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5px;
+}
+.block-card .card .card-information form div input {
+  height: 50px;
+  border: 1px solid #ccc;
+  font-size: 1.4rem;
+  color: #616161;
+}
+.block-card .card .card-information form div input:focus {
+  outline: none;
+}
+.block-card .card .card-information form div button {
+  background-color: #807e7e;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin-bottom: 5px;
+}
+.block-card .card .card-information form div .field-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1280px) {
+  .block-card .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 750px;
+  }
+  .block-card .card .card-image {
+    height: 42vw;
+    width: 60%;
+  }
+  .block-card .card .card-image .div-image-1 {
+    height: 50%;
+    width: 80%;
+  }
+  .block-card .card .card-image .div-image-1 p {
+    font-size: 3vw;
+  }
+  .block-card .card .card-image .div-image-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 17px;
+    height: 4vw;
+  }
+  .block-card .card .card-image .div-image-2 p {
+    color: white;
+    font-size: 1rem;
+    font-family: "Cousine";
+    text-transform: uppercase;
+    margin-top: 0px;
+  }
+  .block-card .card .card-image .div-image-2 .p1 {
+    width: 70%;
+    margin-left: 58px;
+    margin-top: 4px;
+  }
+  .block-card .card .card-image .div-image-2 .p2 {
+    width: 30%;
+    margin-top: 0px;
+  }
+  .block-card .card .card-information {
+    display: flex;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 760px) {
+  .block-card h1 {
+    font-size: 2rem;
+  }
+  .block-card .card {
+    height: 550px;
+  }
+  .block-card .card .card-image {
+    height: 42vw;
+    width: 60%;
+  }
+  .block-card .card .card-image .div-image-1 {
+    height: 50%;
+    width: 80%;
+    padding-left: 30px;
+  }
+  .block-card .card .card-image .div-image-1 p {
+    font-size: 3vw;
+  }
+  .block-card .card .card-image .div-image-2 {
+    height: 4vw;
+  }
+  .block-card .card .card-image .div-image-2 p {
+    font-size: 2vw;
+    margin-top: 0px;
+  }
+  .block-card .card .card-image .div-image-2 .p1 {
+    margin-left: 30px;
+    margin-top: 4px;
+  }
+  .block-card .card .card-image .div-image-2 .p2 {
+    margin-top: 5px;
+  }
+  .block-card .card .card-information {
+    display: flex;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .block-card h1 {
+    font-size: 2rem;
+  }
+  .block-card .card {
+    height: 590px;
+  }
+  .block-card .card .card-image {
+    height: 68vw;
+    width: 100%;
+  }
+  .block-card .card .card-image .div-image-1 {
+    height: 50%;
+    width: 80%;
+  }
+  .block-card .card .card-image .div-image-1 p {
+    font-size: 4vw;
+  }
+  .block-card .card .card-image .div-image-2 {
+    height: 4vw;
+  }
+  .block-card .card .card-image .div-image-2 p {
+    font-size: 3vw;
+    margin-top: 0px;
+  }
+  .block-card .card .card-information {
+    display: flex;
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="shortcut icon" href="img/logo2.png" />
+    <!-- font for icons (menu hamburger) -->
+    <script src="https://kit.fontawesome.com/f566bc0087.js" crossorigin="anonymous"></script>
+    <title>Test task 1 - Landing</title>
+</head>
+
+<body>
+    <!-- block 1 -->
+    <header class="header">
+        <nav class="nav">
+            <img src="img/logo2.png" alt="M-CASH" class="logo">
+            <button class="toggle" aria-label="menu"><i class="fa-solid fa-bars"></i></button>
+            <ul class="nav-menu nav-menu_visibility">
+                <li class="nav-li">
+                    <a href="#" class="nav-a">About Us</a>
+                </li>
+                <li class="nav-li drop-down">
+                    <a href="#" class="nav-a angle">Resources </a>
+                    <ul class="ul-child">
+                        <li>Finance</li>
+                        <li>Others</li>
+                    </ul>
+                </li>
+                <li class="nav-li">
+                    <a href="#" class="nav-a">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- block 1 -->
+    <!-- block 2 -->
+    <section class="section-block-2">
+        <div class="flex-container-1">
+            <div class="flex-container-2 flex-item">
+                <h2 class="flex-item">Be Smart,<br>Think Smart,<br>Save Money</h2>
+                <p class="flex-item">Compare your take-home today</p>
+                <form class="flex-item">
+                    <input id="phone" class="input-large" type="text" required placeholder="Phone Number">
+                    <input id="day" class="input-small" type="text" required placeholder="Day Rate">
+                    <button class="input-small submit" type="button">Submit</button>
+                </form>
+            </div>
+            <div class="flex-item img-container">
+                <img src="img/block2img.png" alt="Be Smart, Think Smart, Save Money">
+            </div>
+        </div>
+
+    </section>
+    <!-- popup -->
+    <div class="popup">
+        <a href="#" class="close">X</a>
+        <p id="textPopup"></p>
+    </div>
+    <!-- block 2 -->
+
+    <!-- block 3 -->
+    <section class="section-block-3">
+        <div class="block-3-header">
+            <h2>Features</h2>
+            <span></span>
+            <p>our key competitive advantages</p>
+        </div>
+        <div class="block-3-articles">
+            <article>
+                <img src="img/features-1.png" alt="hands and crown">
+                <h3>Header</h3>
+                <p>Interdum et malesuada fames ac ante primis in faucibus. Duis vitae sem lacus. ut eros vel libero
+                    pharetra pharetra. Praesent nec pellentesque risus.</p>
+            </article>
+            <article>
+                <img src="img/features-2.png" alt="shake hands">
+                <h3>Header</h3>
+                <p>Interdum et malesuada fames ac ante primis in faucibus. Duis vitae sem lacus. ut eros vel libero
+                    pharetra pharetra. Praesent nec pellentesque risus.</p>
+            </article>
+            <article>
+                <img src="img/features-3.png" alt="money">
+                <h3>Header</h3>
+                <p>Interdum et malesuada fames ac ante primis in faucibus. Duis vitae sem lacus. ut eros vel libero
+                    pharetra pharetra. Praesent nec pellentesque risus. </p>
+            </article>
+
+        </div>
+    </section>
+    <!-- block 3 -->
+    <!-- block 4 -->
+    <section class="section-block-4">
+        <form>
+            <div class="block-4-div-1">
+                <label>Number of employees</label>
+                <input id="employees" type="number">
+            </div>
+            <div class="block-4-div-2">
+                <label>For the payroll, I use</label>
+                <select>
+                    <option disabled selected></option>
+                    <option id="payroll"></option>
+                </select>
+            </div>
+            <button id="message">Compare plans</button>
+        </form>
+    </section>
+    <!-- block 4 -->
+    <!-- block 5 -->
+    <section class="section-block-5">
+        <div class="block-5-header">
+            <h2>Price</h2>
+            <span></span>
+            <p>compare our tariff plans</p>
+        </div>
+        <div class="block-5-articles">
+            <article>
+                <h3>Tier 1</h3>
+                <p><sup>$</sup>11.99 <span>/month</span></p>
+                <span class="border-dashed"></span>
+                <ul>
+                    <li>Some option number 1</li>
+                    <li>Some option number 2</li>
+                    <li>Some option number 3</li>
+                    <li>Some option number 4</li>
+                    <li>Some option number 5</li>
+                </ul>
+                <button>Choose</button>
+            </article>
+            <article>
+                <h3 class="custom-color">Tier 2</h3>
+                <p class="custom-color-span"><sup>$</sup>19.99 <span>/month</span></p>
+                <span class="border-dashed custom-color-span"></span>
+                <ul>
+                    <li>Some option number 1</li>
+                    <li>Some option number 2</li>
+                    <li>Some option number 3</li>
+                    <li>Some option number 4</li>
+                    <li>Some option number 5</li>
+                </ul>
+                <button class="custom-color">Choose</button>
+            </article>
+        </div>
+    </section>
+    <!-- Block 5 -->
+    <!-- Block 6 -->
+    <footer class="footer-block-6">
+        <div class="footer-container-1">
+            <div class="column-footer1">
+                <img src="img/logo-footer.png" alt="M-CASH">
+                <p>Praesent varius feugiat dolor, a pulvinar leo facilisis blandit. Sed quis lobortis mauris, et lacinia
+                    justo. Sed sollicitudin risus consequat pulvinar efficitur. Praesent ac augue in lorem laoreet
+                    bibendum. Vestibulum mattis accumsan nulla eget sagittis.
+                </p>
+            </div>
+            <div class="column-footer2 style-ul">
+                <ul>
+                    <li class="first-li">Documents</li>
+                    <li>Privacy policy</li>
+                    <li>Terms and conditions</li>
+                </ul>
+            </div>
+            <div class="column-footer3 style-ul">
+                <ul>
+                    <li class="first-li">Menu</li>
+                    <li>About Us</li>
+                    <li>Resources</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="column-footer4 style-ul">
+                <ul>
+                    <li class="first-li">About company</li>
+                    <li>Company no.: 123456478</li>
+                    <li>VAT Number: 123 4567 89</li>
+                </ul>
+            </div>
+            <div class="column-footer5 style-ul">
+                <p>Follow Us</p>
+                <ul>
+                    <li><img src="img/facebook-footer-logo.png" alt="Facebook logo"></li>
+                    <li><img src="img/linkeding-footer-logo.png" alt="Linkeding logo"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-container-2">
+            <p>Trinity Court, Molly Millars Ln, Wokingham RG41 2PY, United Kingdom</p>
+        </div>
+    </footer>
+    <!-- Block 6 -->
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
